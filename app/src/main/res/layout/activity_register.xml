@@ -13,7 +13,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,15 +84,7 @@
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/textInputMobile"
                         style="@style/parent"
-                        android:layout_marginTop="@dimen/loginViewsMargin">
-
-                        <EditText
-                            android:id="@+id/editTextMobile"
-                            style="@style/modifiedEditText"
-                            android:hint="Mobile Number"
-                            android:inputType="phone"
-                            android:maxLines="1" />
-                    </com.google.android.material.textfield.TextInputLayout>
+                        android:layout_marginTop="@dimen/loginViewsMargin" />
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/textInputPassword"
@@ -168,11 +161,6 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
                 android:gravity="center">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_facebook" />
 
                 <ImageView
                     android:layout_width="wrap_content"
